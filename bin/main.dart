@@ -7,6 +7,7 @@ void main() {
   double sayi2 = double.parse(stdin.readLineSync());
 
   print("Birinci Deger : $sayi1 İkinci Deger : $sayi2");
+
   print("İslemler : ");
 
   print(hesaplaTopla(sayi1, sayi2).toString());
@@ -38,32 +39,3 @@ double hesaplaBol(double sayi1, double sayi2) {
 
   return sayi1 / sayi2;
 }
-/**import 'dart:io';
-
-// ignore: always_declare_return_types
-void main() {
-  print('Welcome calculator app =)');
-  print('Enter two values');
-
-  // ignore: prefer_single_quotes
-  print("*First value: ");
-  var value1 = int.parse(stdin.readLineSync());
-  print(value1);
-
-  print('**Second value: ');
-  var value2 = int.parse(stdin.readLineSync());
-  print(value2);
-
-  toplamaHesapla(value1, value2);
-
-  print('Toplama İşleminin Sonucu ');
-}
-
-void toplamaHesapla(
-  var s1,
-  var s2,
-) {
-  var sonuc = s1 + s2;
-  print('Toplama İşlemi Sonucu : $sonuc');
-}
- */
